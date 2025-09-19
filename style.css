@@ -1,0 +1,15 @@
+/* Reset & Body */
+* {margin:0;padding:0;box-sizing:border-box;}
+body {background:#0a0a0a;color:#0ff;font-family:'Roboto Mono', monospace;display:flex;flex-direction:column;align-items:center;min-height:100vh;}
+h1 {margin:30px 0;font-size:3em;text-shadow:0 0 10px #0ff,0 0 20px #0ff;}
+.container {width:90%;max-width:1200px;display:flex;flex-direction:column;align-items:center;}
+canvas {border:3px solid #0ff;margin:20px 0;transform:rotateX(15deg) rotateY(15deg);box-shadow:0 0 30px #0ff;border-radius:15px;}
+.controls {display:flex;flex-wrap:wrap;justify-content:center;margin-bottom:20px;}
+input, button {margin:5px;font-size:16px;padding:10px 20px;border-radius:10px;border:1px solid #0ff;background:#111;color:#0ff;cursor:pointer;transition:0.3s;}
+input:focus{outline:none;border-color:#0ff;}
+button:hover{background:#0ff;color:#000;}
+table {border-collapse:collapse;width:100%;margin-top:20px;}
+th, td {border:1px solid #0ff;padding:10px;text-align:center;}
+th {background:#111;}
+td {background:#000;}
+footer {margin-top:30px;padding:20px;width:100%;text-align:center;color:#0aa;border-top:1px solid #0ff;font-size:0.9em;}
